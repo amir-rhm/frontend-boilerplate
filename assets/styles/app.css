@@ -1,0 +1,28 @@
+:root {
+    font-size: 10px;
+    --base-spacing: 0.8rem;
+    --x-gutter: 1.2rem;
+    --y-gutter: 0.8rem;
+    --primary-color: #222;
+    --secondary-color: #555;
+    --accent-color: #111;
+    --gray-color: #999;
+    --main-text-color: #555;
+    --danger-color: #555;
+    --success-color: #999;
+    --white-color: #fff;
+    --black-color: #000;
+    --border-color: #777;
+    scroll-behavior: smooth;
+}
+
+:root.dark {
+    --dark-color: #333;
+}
+
+
+body {
+    font-size: 14px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
